@@ -15,7 +15,11 @@ public class DependencyInoversion2 {
 }
 
 
-
+/**
+ * 1，底层模块尽量都要有抽象类或接口，程序稳定性更好
+ * 2。变量的声明类型尽量使抽象类或者接口，相当于存在一个缓冲曾，利于程序优化
+ * 3。继承时要遵循里氏替换原则
+ */
 interface IReceive{
 
     void receiev();
